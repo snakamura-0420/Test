@@ -5,7 +5,7 @@ rem 変更の取り消し
 git checkout .
 
 rem 最新の取得
-git checkout -b develop origin/develop
+git pull origin develop
 
 rem コンソールビルド
 call Build.bat
