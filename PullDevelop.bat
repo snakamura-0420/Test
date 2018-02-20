@@ -7,7 +7,4 @@ git checkout .
 rem 最新の取得
 git pull origin develop
 
-rem コンソールビルド
-call Build.bat
-
 pause

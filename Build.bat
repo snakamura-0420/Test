@@ -11,7 +11,7 @@ rem ビルドログのパス
 set BUILD_LOG=%PROJECT_PATH%\Build\Android\build.log
 
 rem ビルド関数の指定
-set BUILD_METHOD=BuildClass.BuildAndroid
+set BUILD_METHOD=monaka.BuildClass.BuildAndroid
 
 rem Androidビルド実行
 mkdir %BUILD_PATH%
