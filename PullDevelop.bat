@@ -6,5 +6,3 @@ git checkout .
 
 rem ÅV‚Ìæ“¾
 git pull origin develop
-
-pause

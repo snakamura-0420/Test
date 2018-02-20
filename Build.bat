@@ -18,4 +18,3 @@ mkdir %BUILD_PATH%
 %UNITY_PATH%\Unity.exe -batchmode -quit -logFile %BUILD_LOG% -projectPath %PROJECT_PATH% -executeMethod %BUILD_METHOD%
 
 rem ÉrÉãÉhèIóπ!
-pause
