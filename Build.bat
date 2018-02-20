@@ -15,6 +15,6 @@ set BUILD_METHOD=monaka.BuildClass.BuildAndroid
 
 rem Androidビルド実行
 mkdir %BUILD_PATH%
-%UNITY_PATH%\Unity.exe -batchmode -quit -logFile %BUILD_LOG% -projectPath %PROJECT_PATH% -executeMethod %BUILD_METHOD%
+%UNITY_PATH%\Unity.exe -batchmode -quit -buildTarget android -logFile %BUILD_LOG% -projectPath %PROJECT_PATH% -executeMethod %BUILD_METHOD%
 
 rem ビルド終了!
