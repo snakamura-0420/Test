@@ -14,13 +14,13 @@ public class BuildMenu : EditorWindow
     [MenuItem("Build/Android")]
     private static void BuildAndroid()
     {
-        BuildClass.BuildAndroid();
+        AutoBuildClass.BuildAndroid();
     }
 
     // Androidのビルド_
     [MenuItem("Build/iOS")]
     private static void BuildiOS()
     {
-        BuildClass.BuildiOS();
+        AutoBuildClass.BuildiOS();
     }
 }

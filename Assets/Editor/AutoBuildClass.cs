@@ -9,7 +9,7 @@ namespace monaka
     /*
      * コンソールビルド用
      */
-    public class BuildClass
+    public class AutoBuildClass
     {
 
         public static void BuildAndroid()
@@ -19,7 +19,7 @@ namespace monaka
             string[] sceneList =
             {
             "./Assets/main.unity"
-        };
+            };
 
             // ビルド実行_
             string errorMessage = BuildPipeline.BuildPlayer(
